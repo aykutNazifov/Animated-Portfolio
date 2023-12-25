@@ -41,7 +41,7 @@ const Portfolio = () => {
     })
 
     return (
-        <div className='relative' ref={ref}>
+        <div id='Portfolio' className='relative' ref={ref}>
             <div className='sticky top-0 left-0 right-0 p-12 text-center text-orange-500 text-[48px] font-semibold'>
                 <h1>Featured Works</h1>
                 <motion.div className='bg-white h-2 mt-2' style={{ scaleX }}></motion.div>

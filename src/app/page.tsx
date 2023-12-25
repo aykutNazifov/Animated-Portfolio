@@ -8,21 +8,21 @@ import Services from '@/sections/Services'
 export default function Home() {
   return (
     <>
-      <section>
+      <section id='Home'>
         <Navbar />
         <Hero />
       </section>
-      <section>
+      <section >
         <Parallax type='services' />
       </section>
-      <section>
+      <section id='Services'>
         <Services />
       </section>
       <section>
         <Parallax type='portfolio' />
       </section>
       <Portfolio />
-      <section>
+      <section id='Contact'>
         <Contact />
       </section>
     </>
